@@ -1,6 +1,6 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
-  let difference
+  let difference;
   const numbers = new Set();
   for (let i = 0; i <= array.length; i++) {
     difference = target - array[i];
@@ -33,7 +33,6 @@ function hasTargetSum(array, target) {
       maintain set
     }
   */
-*/
 
 /*
   Add written explanation of your solution here
